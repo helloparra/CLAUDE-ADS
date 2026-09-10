@@ -20,20 +20,37 @@ No es un problema moral abstracto. Es que las tres cosas que necesitas (cuenta d
 Meta aprobada, cuenta de Shopify sin incidencias y una marca que aguante) se rompen
 por el mismo sitio.
 
-## App recomendada: Loox
+## App elegida: Judge.me
 
-Para esta categoría concreta, por encima de las alternativas generalistas: **Loox**
-pide fotos al cliente por defecto.
+Decidida por el requisito de coste cero. **Loox no tiene plan gratuito** (arranca en
+torno a los 13 $/mes), así que queda descartada pese a ser la más orientada a foto.
+**Judge.me tiene plan gratuito permanente** que incluye reseñas con foto, que es lo
+único que importa aquí.
 
-Tu producto es visual y su prueba es un antes/después. Una reseña de cinco estrellas
-en texto vale poco aquí. Una foto del faro de un desconocido, hecha con un móvil, en
-un parking, con mala luz, vale muchísimo, precisamente porque no parece de estudio.
+Por qué la foto es innegociable en esta categoría: tu producto es visual y su prueba
+es un antes/después. Una reseña de cinco estrellas en texto vale poco. La foto de un
+faro de un desconocido, hecha con un móvil, en un parking, con mala luz, vale
+muchísimo, precisamente porque no parece de estudio.
 
-Alternativa sólida: **Judge.me**, con plan gratuito más generoso.
+Verifica los límites del plan gratuito al registrarte: cambian con el tiempo.
 
-La app gratuita propia de Shopify (Shopify Product Reviews) fue retirada y sus
-usuarios migrados a otras soluciones. Verifica la disponibilidad antes de contar con
-ella.
+La app gratuita propia de Shopify (Shopify Product Reviews) fue retirada. No cuentes
+con ella.
+
+### Instalación
+
+No se puede instalar por API: las apps de terceros exigen que el comerciante acepte
+permisos en el App Store. Son tres minutos:
+
+1. Shopify admin → Aplicaciones → buscar "Judge.me Product Reviews" → Instalar.
+2. Plan **Forever Free**.
+3. Ajustes que importan:
+   - Peticiones de reseña **activadas**, con envío a los [DATO: días de Dropipro] + 7.
+   - **Fotos y vídeo en reseñas activados.** Es la razón de elegir esta app.
+   - Publicación automática **desactivada** al principio, para revisar las primeras.
+     No para filtrar las malas, que se publican igual, sino para detectar spam.
+   - Widget de reseñas en la ficha de producto y **estrellas bajo el título**.
+   - Rich snippets activados: las estrellas salen en Google.
 
 ## Cómo conseguir las primeras 15 reseñas
 
