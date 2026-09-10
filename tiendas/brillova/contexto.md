@@ -27,8 +27,8 @@ de mismo envío.
 
 **Ninguno de los dos está publicado.** La tienda no puede vender hoy.
 
-AOV máximo teórico si todo el mundo comprara el upsell: 49,98 €. AOV real
-desconocido hasta tener pedidos.
+AOV máximo teórico si todo el mundo comprara el upsell: 49,98 € de subtotal
+(56,97 € con envío). AOV real desconocido hasta tener pedidos.
 
 ### Propuesta de valor
 
@@ -49,29 +49,106 @@ respalden todavía.
 
 ## Economía unitaria
 
-**[PENDIENTE — bloqueante.]** Sin estos números no se puede calcular el CPA máximo
-y cualquier decisión de puja sería a ciegas.
+Costes aportados por Pablo (2026-09-10). Fulfillment: **Dropipro** (agencia).
+Pasarela: **Shopify Payments**.
 
-| Concepto | Kit 34,99 € | Complemento 14,99 € |
+**Supuestos declarados** (verificar, no son datos):
+- Comisión Shopify Payments España plan Basic: **1,9% + 0,25 €** por transacción
+  sobre el importe bruto. A confirmar en Configuración → Pagos. Una comisión del
+  2,9% restaría unos 0,42 € al margen: no cambia ninguna conclusión.
+- Negocio sujeto a IVA al 21%. Si aún no lo estuviera, el margen sería ~6 € mayor
+  por pedido.
+
+### Costes
+
+| Concepto | Coste (sin IVA) |
+|---|---|
+| Kit Restaurador de Faros | 3,69 € |
+| Spray cerámico 3 en 1 | 2,89 € |
+| Restaurador de plásticos | 1,99 € |
+| **Complemento (los dos juntos)** | **4,88 €** |
+| Envío por pedido (Dropipro) | ~6,50 € |
+| Envío incremental del upsell | ~0 € (mismo paquete) |
+
+### Envío cobrado al cliente [Shopify]
+
+| Zona | Tarifa |
+|---|---|
+| España | 6,99 € · **gratis a partir de 55 €** |
+| UE | 8,99 € |
+| Internacional | 12,99 € |
+
+**El umbral de envío gratis nunca se alcanza:** el subtotal máximo posible con el
+catálogo actual es 49,98 € (kit + complemento). La condición está configurada a
+55 €. Es configuración muerta.
+
+### Margen de contribución
+
+| | Kit solo | Kit + complemento |
 |---|---|---|
-| PVP con IVA | 34,99 € | 14,99 € |
-| IVA 21% a liquidar | −6,07 € | −2,60 € |
-| **Ingreso neto** | **28,92 €** | **12,39 €** |
-| Coste de producto (COGS) | [PENDIENTE] | [PENDIENTE] |
-| Envío y packaging | [PENDIENTE] | 0 € (mismo envío) |
-| Comisión pasarela | [PENDIENTE] | [PENDIENTE] |
-| **Margen de contribución** | **[PENDIENTE]** | **[PENDIENTE]** |
+| Subtotal | 34,99 € | 49,98 € |
+| Envío cobrado | 6,99 € | 6,99 € |
+| **Total pedido** | **41,98 €** | **56,97 €** |
+| Ingreso neto (÷1,21) | 34,69 € | 47,08 € |
+| − COGS | 3,69 € | 8,57 € |
+| − Envío real | 6,50 € | 6,50 € |
+| − Pasarela | 1,05 € | 1,33 € |
+| **= Margen de contribución** | **23,46 €** | **30,68 €** |
+| Margen sobre ingreso neto | 67,6% | 65,2% |
 
-El IVA sale del 21% general español sobre precio con impuestos incluidos
-(34,99 / 1,21 = 28,92). Es aritmética, no una estimación de negocio.
+**El upsell aporta +7,22 € de margen: sube el CPA máximo un 31%.** No es un extra,
+es parte del modelo de negocio.
 
-Del margen de contribución sale el **CPA máximo**, y de ahí el ROAS objetivo. Es el
-primer dato que hay que cerrar.
+### CPA máximo y ROAS objetivo
+
+ROAS calculado sobre el valor bruto del pedido, que es como lo reportan Meta y
+Google.
+
+| | Kit solo | Kit + complemento |
+|---|---|---|
+| CPA de equilibrio (margen = gasto) | 23,46 € | 30,68 € |
+| ROAS de equilibrio | 1,79 | 1,86 |
+| CPA objetivo dejando 30% de margen | 16,42 € | 21,48 € |
+| ROAS objetivo | 2,56 | 2,65 |
+
+**Regla operativa: por debajo de ROAS 1,8 se pierde dinero. El objetivo de trabajo
+es 2,6.**
+
+### Palancas de margen, por tamaño
+
+1. **El envío es el mayor coste unitario: 6,50 €, un 76% más que el COGS del kit.**
+   Renegociar la tarifa con Dropipro es la palanca más grande que existe. Cada euro
+   que baje es un euro directo de CPA máximo.
+2. **Cobrando 6,99 € todavía se pierden 0,72 € por pedido**, porque el envío también
+   lleva IVA: 6,99 / 1,21 = 5,78 € netos contra 6,50 € de coste. Para cubrirlo
+   habría que cobrar 7,87 €.
+3. **Markup del kit: 9,5× sobre coste.** Sano para la categoría. El problema del
+   margen no es el precio de compra, es la logística.
+
+### Hipótesis de precio pendiente de test
+
+Precio todo incluido con envío gratis, en vez de precio bajo + envío al checkout:
+
+| | Hoy | Propuesta |
+|---|---|---|
+| Precio mostrado | 34,99 € + 6,99 € envío | 42,99 € envío gratis |
+| Lo que paga el cliente | 41,98 € | 42,99 € (+1,01 €) |
+| Margen | 23,46 € | **24,27 €** |
+| Con upsell | 30,68 € | **31,50 €** |
+
+Mismo desembolso para el cliente, ~0,80 € más de margen por pedido, y elimina la
+sorpresa del coste de envío en el checkout, que es una de las causas principales de
+abandono de carrito. Requiere test con criterio de éxito definido antes de fijarlo.
+
+A 39,99 € con envío gratis el margen baja a 21,85 € y haría falta una subida de
+conversión del **7,4%** solo para empatar.
 
 ## Estado operativo
 
 | Métrica | Valor |
 |---|---|
+| Fulfillment | Dropipro (agencia) |
+| Pasarela | Shopify Payments |
 | Pedidos | **0** [Shopify] |
 | Clientes | **0** [Shopify] |
 | Sesiones, tasa de conversión, AOV, CAC, recompra | Sin datos: no hay tráfico ni ventas |
@@ -94,6 +171,11 @@ Ordenados por lo que impide vender antes.
    algoritmo optimiza a ciegas y el gasto de las primeras semanas se pierde.
 5. **Sin captación de email/SMS.** Con ticket de 35 € y recompra baja por naturaleza
    del producto, el margen se recupera en el upsell y en la segunda venta.
+6. **Umbral de envío gratis inalcanzable** (55 € contra un subtotal máximo de
+   49,98 €). No hace daño hoy porque nunca se dispara, pero se activará sola en
+   cuanto se añada un producto o un pack de 2 unidades. Decidir a conciencia:
+   bajarla a 45 € cuesta 5,64 € de margen en cada pedido con upsell, así que solo
+   compensa si multiplica por más de 4,5 la tasa de adjunción. No es la vía.
 
 ## Canales
 
