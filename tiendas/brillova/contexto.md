@@ -74,9 +74,12 @@ Pasarela: **Shopify Payments**.
 
 | Zona | Tarifa |
 |---|---|
-| España | 6,99 € · **gratis a partir de 55 €** |
+| España peninsular (47 provincias) | 6,99 € · **gratis a partir de 55 €** |
 | UE | 8,99 € |
 | Internacional | 12,99 € |
+
+Desde el 2026-09-10 quedan **excluidos Baleares, Canarias, Ceuta y Melilla**: están
+fuera del territorio IVA de la UE y cada envío habría generado aduanas, IGIC o IPSI.
 
 **El umbral de envío gratis nunca se alcanza:** el subtotal máximo posible con el
 catálogo actual es 49,98 € (kit + complemento). La condición está configurada a

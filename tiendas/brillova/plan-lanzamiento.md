@@ -22,15 +22,15 @@ vendedor con nombre, NIF, domicilio y contacto.
 | `PLAZO_PREPARACION` / `PLAZO_ENTREGA` | Plazos reales de Dropipro |
 | `PLAZO_RESPUESTA` | Compromiso de respuesta de soporte (24 h / 48 h) |
 
-**Dos decisiones tuyas:**
+Ya no falta ningún dato de envíos ni de devoluciones: solo los identificativos.
 
-1. **Quién paga el envío de vuelta en un desistimiento.** Si no se informa
-   expresamente, la ley obliga a que lo pagues tú. Recomendado: lo asume el
-   cliente y se dice con claridad. Con 23,46 € de margen, asumir un retorno de
-   ~6,50 € convierte cada devolución en pérdida.
-2. **Canarias, Ceuta y Melilla.** Hoy entran en la zona "España". Están fuera del
-   territorio IVA de la UE: generan despacho de aduanas, IGIC/IPSI y reclamaciones.
-   Recomendado: excluirlas hasta confirmar con Dropipro que los sirve y a qué coste.
+**Decisiones cerradas (2026-09-10):**
+
+1. ~~Quién paga el envío de vuelta~~ → **lo asume el cliente.** Recogido en
+   `legal/devoluciones.html`, con la excepción de producto defectuoso o erróneo,
+   donde lo asumimos nosotros porque así lo exige la ley.
+2. ~~Territorios extrapeninsulares~~ → **excluidos Baleares, Canarias, Ceuta y
+   Melilla.** Aplicado en la tienda.
 
 ---
 
@@ -82,11 +82,14 @@ profesional. Publicarlos ya es mejor que no tener nada, que es la situación act
 1. **Desactivar envíos fuera de España** hasta conocer el coste real de Dropipro por
    destino. Hoy cobras 8,99 € a la UE y 12,99 € al resto del mundo, cuando el envío
    nacional ya te cuesta 6,50 €. Es casi seguro que cada pedido internacional pierde
-   dinero, y ahora mismo están activos para 40 países.
+   dinero, y ahora mismo están activos para 40 países. **Pendiente de tu OK.**
 2. **Revisar el umbral de envío gratis de 55 €.** Inalcanzable con el catálogo actual
    (subtotal máximo 49,98 €). Dejarlo documentado o retirarlo, pero no bajarlo a 45 €:
    costaría 5,64 € de margen en cada pedido con upsell.
-3. Confirmar el tratamiento de Canarias, Ceuta y Melilla (Bloque 0).
+3. ~~Confirmar el tratamiento de Canarias, Ceuta y Melilla~~ → **hecho.** La zona
+   "España" pasa de 52 a 47 provincias: quedan fuera Balears (PM), Las Palmas (GC),
+   Santa Cruz de Tenerife (TF), Ceuta (CE) y Melilla (ML). Una dirección de esos
+   territorios ya no puede completar el pedido.
 
 ---
 
