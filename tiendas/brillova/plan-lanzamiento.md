@@ -79,10 +79,10 @@ profesional. Publicarlos ya es mejor que no tener nada, que es la situación act
 
 ## Bloque 3 — Envíos
 
-1. **Desactivar envíos fuera de España** hasta conocer el coste real de Dropipro por
-   destino. Hoy cobras 8,99 € a la UE y 12,99 € al resto del mundo, cuando el envío
-   nacional ya te cuesta 6,50 €. Es casi seguro que cada pedido internacional pierde
-   dinero, y ahora mismo están activos para 40 países. **Pendiente de tu OK.**
+1. ~~Desactivar envíos fuera de España~~ → **hecho.** Las tarifas de UE (8,99 €) y
+   Resto del mundo (12,99 €) quedan desactivadas, no borradas: la estructura sigue
+   ahí para reactivarla cuando se conozcan los costes reales de Dropipro por destino.
+   `shipsToCountries` pasa de 40 países a `["ES"]`.
 2. **Revisar el umbral de envío gratis de 55 €.** Inalcanzable con el catálogo actual
    (subtotal máximo 49,98 €). Dejarlo documentado o retirarlo, pero no bajarlo a 45 €:
    costaría 5,64 € de margen en cada pedido con upsell.

@@ -12,7 +12,7 @@
 | Nombre de la tienda en Shopify | **"Mi tienda"** — sin configurar [Shopify] |
 | Dominio | `d1w4ar-ee.myshopify.com` — sin dominio propio [Shopify] |
 | Plan | Basic [Shopify] |
-| Mercado | España (único mercado activo), EUR, `Europe/Madrid` [Shopify] |
+| Mercado | España peninsular, EUR, `Europe/Madrid` [Shopify] |
 | Impuestos | Precios con IVA incluido [Shopify] |
 
 ## Producto
@@ -72,11 +72,16 @@ Pasarela: **Shopify Payments**.
 
 ### Envío cobrado al cliente [Shopify]
 
-| Zona | Tarifa |
-|---|---|
-| España peninsular (47 provincias) | 6,99 € · **gratis a partir de 55 €** |
-| UE | 8,99 € |
-| Internacional | 12,99 € |
+| Zona | Tarifa | Estado |
+|---|---|---|
+| España peninsular (47 provincias) | 6,99 € · gratis desde 55 € | Activa |
+| UE | 8,99 € | Desactivada |
+| Internacional | 12,99 € | Desactivada |
+
+Único destino operativo: **España peninsular**. Las tarifas internacionales se
+conservan desactivadas a la espera de los costes reales de Dropipro por destino;
+a 8,99 € la UE, con un envío nacional que ya cuesta 6,50 €, cada pedido habría
+perdido dinero.
 
 Desde el 2026-09-10 quedan **excluidos Baleares, Canarias, Ceuta y Melilla**: están
 fuera del territorio IVA de la UE y cada envío habría generado aduanas, IGIC o IPSI.
