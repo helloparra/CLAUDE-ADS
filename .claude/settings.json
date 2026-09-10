@@ -1,0 +1,47 @@
+{
+  "enabledPlugins": {
+    "marketing-skills@marketingskills": true,
+    "claude-ads@ai-marketing-hub-claude-ads": true,
+    "ai-copywriter@ai-copywriter": true,
+    "marketing-cro@wondelai-skills": true,
+    "strategy-growth@wondelai-skills": true,
+    "product-strategy@wondelai-skills": true,
+    "sales-influence@wondelai-skills": true,
+    "ux-design@wondelai-skills": true,
+    "product-innovation@wondelai-skills": true,
+    "metaskills@wondelai-skills": true,
+    "alive@alivecontext": true
+  },
+  "extraKnownMarketplaces": {
+    "marketingskills": {
+      "source": {
+        "source": "github",
+        "repo": "coreyhaines31/marketingskills"
+      }
+    },
+    "alivecontext": {
+      "source": {
+        "source": "github",
+        "repo": "alivecontext/alive"
+      }
+    },
+    "ai-copywriter": {
+      "source": {
+        "source": "github",
+        "repo": "mikiarlo3/ai-copywriter"
+      }
+    },
+    "wondelai-skills": {
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills"
+      }
+    },
+    "ai-marketing-hub-claude-ads": {
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-ads"
+      }
+    }
+  }
+}
