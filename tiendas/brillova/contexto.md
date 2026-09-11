@@ -74,7 +74,7 @@ Pasarela: **Shopify Payments**.
 
 | Zona | Tarifa | Estado |
 |---|---|---|
-| España peninsular (47 provincias) | 6,99 € · gratis desde 55 € | Activa |
+| España peninsular (47 provincias) | **Envío gratis (0,00 €)** | Activa |
 | UE | 8,99 € | Desactivada |
 | Internacional | 12,99 € | Desactivada |
 
@@ -86,23 +86,22 @@ perdido dinero.
 Desde el 2026-09-10 quedan **excluidos Baleares, Canarias, Ceuta y Melilla**: están
 fuera del territorio IVA de la UE y cada envío habría generado aduanas, IGIC o IPSI.
 
-**El umbral de envío gratis nunca se alcanza:** el subtotal máximo posible con el
-catálogo actual es 49,98 € (kit + complemento). La condición está configurada a
-55 €. Es configuración muerta.
+El 2026-09-11, por decisión de Pablo, el envío a España pasa a ser **gratuito**. Se
+eliminó la tarifa de 6,99 € y con ella el umbral inalcanzable de 55 €. El coste real
+de 6,50 € por pedido lo asume ahora la tienda: son 5,64 € menos de margen en cada
+venta frente a cobrarlo. Se advirtió del impacto y se decidió seguir adelante.
 
 ### Margen de contribución
 
 | | Kit solo | Kit + complemento |
 |---|---|---|
-| Subtotal | 34,99 € | 49,98 € |
-| Envío cobrado | 6,99 € | 6,99 € |
-| **Total pedido** | **41,98 €** | **56,97 €** |
-| Ingreso neto (÷1,21) | 34,69 € | 47,08 € |
+| **Total pedido** | **34,99 €** | **49,98 €** |
+| Ingreso neto (÷1,21) | 28,92 € | 41,31 € |
 | − COGS | 3,69 € | 8,57 € |
-| − Envío real | 6,50 € | 6,50 € |
-| − Pasarela | 1,05 € | 1,33 € |
-| **= Margen de contribución** | **23,46 €** | **30,68 €** |
-| Margen sobre ingreso neto | 67,6% | 65,2% |
+| − Envío real (a cargo de la tienda) | 6,50 € | 6,50 € |
+| − Pasarela | 0,92 € | 1,20 € |
+| **= Margen de contribución** | **17,81 €** | **25,04 €** |
+| Margen sobre ingreso neto | 61,6% | 60,6% |
 
 **El upsell aporta +7,22 € de margen: sube el CPA máximo un 31%.** No es un extra,
 es parte del modelo de negocio.
@@ -114,22 +113,22 @@ Google.
 
 | | Kit solo | Kit + complemento |
 |---|---|---|
-| CPA de equilibrio (margen = gasto) | 23,46 € | 30,68 € |
-| ROAS de equilibrio | 1,79 | 1,86 |
-| CPA objetivo dejando 30% de margen | 16,42 € | 21,48 € |
-| ROAS objetivo | 2,56 | 2,65 |
+| CPA de equilibrio (margen = gasto) | 17,81 € | 25,04 € |
+| ROAS de equilibrio | 1,96 | 2,00 |
+| CPA objetivo dejando 30% de margen | 12,47 € | 17,53 € |
+| ROAS objetivo | 2,81 | 2,85 |
 
-**Regla operativa: por debajo de ROAS 1,8 se pierde dinero. El objetivo de trabajo
-es 2,6.**
+**Regla operativa: por debajo de ROAS 2,0 se pierde dinero. El objetivo de trabajo
+es 2,8.**
 
 ### Palancas de margen, por tamaño
 
 1. **El envío es el mayor coste unitario: 6,50 €, un 76% más que el COGS del kit.**
    Renegociar la tarifa con Dropipro es la palanca más grande que existe. Cada euro
    que baje es un euro directo de CPA máximo.
-2. **Cobrando 6,99 € todavía se pierden 0,72 € por pedido**, porque el envío también
-   lleva IVA: 6,99 / 1,21 = 5,78 € netos contra 6,50 € de coste. Para cubrirlo
-   habría que cobrar 7,87 €.
+2. **El envío ya no se cobra.** Los 6,50 € salen íntegros del margen. Recuperarlo
+   sin volver a cobrarlo pasa por subir el precio: a 42,99 € el margen sube a
+   24,27 € y el cliente paga solo 1,01 € más de lo que pagaba con envío aparte.
 3. **Markup del kit: 9,5× sobre coste.** Sano para la categoría. El problema del
    margen no es el precio de compra, es la logística.
 
